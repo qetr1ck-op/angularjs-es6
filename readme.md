@@ -4,7 +4,7 @@
 
 > Tested in Chrome v48.x
 
-A dead simple project with todos list. Basic idea was to implement CRUD with todo items, and store/retrieve them in LocalStorage with futher updating to Angular2.
+A dead simple project with todos list. Basic idea was to implement CRUD with todo items, and store/retrieve them from LocalStorage with futher updating to Angular2.
 
 ### For dependency and build
 ```
