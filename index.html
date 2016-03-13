@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="./src/css/base.css">
+		<style>[ng-cloak] { display: none; }</style>
+	</head>
+	<body ng-app="todo-app">
+		<ng-view />
+
+		<script src="node_modules/angular/angular.js"></script>
+		<script src="node_modules/angular-route/angular-route.js"></script>
+		<script src="dist/app.js"></script>
+		<script src="dist/todo/todoList.js"></script>
+		<script src="dist/todo/todoStorageService.js"></script>
+		<script src="dist/todo/todoFocus.js"></script>
+		<script src="dist/todo/todoEscape.js"></script>
+	</body>
+</html>
