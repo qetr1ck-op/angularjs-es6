@@ -4,17 +4,17 @@
 
 > Tested in Chrome v48.x
 
-A dead simple project with todos list. Basic idea was to implement CRUD with todo items, and store/retrieve them in LocalStorage.
+A dead simple project with todos list. Basic idea was to implement CRUD with todo items, and store/retrieve them in LocalStorage with futher updating to Angular2.
 
-## For dependency and build
+### For dependency and build
 ```
 $ npm i
 ```
-## For build and watch
+### For build and watch
 ```
 $ npm run build:js
 ```
-## For webserver and change-detection reload
+### For webserver and change-detection reload
 ```
 npm run server
 ```
