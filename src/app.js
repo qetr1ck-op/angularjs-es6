@@ -18,7 +18,7 @@ angular.module('todo-app', ['ngRoute'])
 
 		$routeProvider
 			.when('/', routeConfig)
-			.when('/:status', routeConfig)//todo:?
+			.when('/:status', routeConfig) // statuses
 			.otherwise({
 				redirectTo: '/'
 			});
