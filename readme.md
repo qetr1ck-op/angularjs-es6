@@ -6,22 +6,22 @@
 
 A dead simple project with todos list. Basic idea was to implement CRUD with todo items, and store/retrieve them from LocalStorage with futher updating to Angular2.
 
+
 ### For dependency and build
 ```
 $ npm i
 ```
-### For build and watch
+### Start the server
 ```
-$ npm run build:js
+$ npm start
 ```
-### For webserver and change-detection reload
+### Build files
 ```
-npm run server
+npm run build
 ```
 
 TODO:
 * upd directives to component approach
 * upd controller container approach to component tree
-* improve build-transpiling system
 * upd to Angular2
 
