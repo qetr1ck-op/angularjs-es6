@@ -1,4 +1,4 @@
-# AngularJS + ES6 weekly project
+# AngularJS + ES6 + Webpack weekly project
 
 > Experimenting with ES6 (classes, modules, destructing, rest params, arrows function and more) and Angular v1.5.x
 
