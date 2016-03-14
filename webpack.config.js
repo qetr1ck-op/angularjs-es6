@@ -151,12 +151,15 @@ module.exports = function makeWebpackConfig () {
    * Reference: http://webpack.github.io/docs/configuration.html#plugins
    * List: http://webpack.github.io/docs/list-of-plugins.html
    */
-  config.plugins = [
+  config.plugins = [];
+
+  // Reference:  https://github.com/jeffling/ng-annotate-webpack-plugin
+  // Runs ng-annotate on your bundles
+  config.plugins.push(
     new ngAnnotatePlugin({
       add: true
-      // other ng-annotate options here
     })
-  ];
+  );
 
   // Skip rendering index.html in test mode
   if (!isTest) {

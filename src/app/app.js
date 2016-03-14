@@ -8,9 +8,9 @@ import {todoEscape, todoFocus} from './todo/todoDirectives';
 
 import '../style/app.css';
 
-const MODULE_NAME = 'app';
+const MODULE_NAME = 'app-todo';
 
-angular.module('app', ['ngRoute'])
+angular.module(MODULE_NAME, ['ngRoute'])
   .config(routeConfig)
   .service('todoStorage', TodoStorage)
   .service('localStorage', LocalStorage)
